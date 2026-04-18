@@ -59,13 +59,21 @@ GROQ_API_KEY=your_groq_key
 GEMINI_API_KEY=your_gemini_key
 ```
 
-### 2. Run Demo (Zero API Cost)
+### 2. Run Live Demo
+
+```bash
+python main.py demo
+```
+
+**Full 4-agent pipeline** with live API responses. Loads fictional "Emeka" profile and runs complete behavioral analysis, prediction, and intervention in real-time.
+
+**Alternative: Cached Demo** (if API quota exhausted)
 
 ```bash
 python3 cached_demo.py
 ```
 
-**Shows full pipeline** (100% functional, pre-cached data, no API calls).
+_Same full pipeline, pre-cached results, zero API calls._
 
 ### 3. Use With Your Data
 
