@@ -167,19 +167,6 @@ The intervention output is the demo. Everything before it is setup.
 
 ---
 
-## Extending NEMESIS
-
-**Add a new agent:** Inherit from `BaseAgent`, write the system prompt, add to `Orchestrator`.
-
-**Use Grok instead of Gemini:** Replace the Gemini SDK calls in `base.py` with xAI's API.  
-The system prompts work with any LLM.
-
-**Add a web interface:** Wrap the Orchestrator in FastAPI. The Voice agent becomes a chat endpoint.
-
-**Add voice output:** Pipe The Voice's response through ElevenLabs or Google TTS.
-
----
-
 ## The Philosophy
 
 Most AI agents react to what you say.  
