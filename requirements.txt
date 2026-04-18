@@ -1,0 +1,5 @@
+google-generativeai>=0.7.0
+groq>=0.4.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+pygame>=2.5.0
